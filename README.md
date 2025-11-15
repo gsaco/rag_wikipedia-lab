@@ -1,6 +1,6 @@
 # rag_wikipedia-lab
 
-This repository contains a small Retrieval-Augmented Generation (RAG) demo that builds a Wikipedia-based summarizer using LangChain, ChromaDB, and SentenceTransformers.
+This repository contains a small Retrieval-Augmented Generation (RAG) demo that builds a Wikipedia-based summarizer using LangChain, ChromaDB, and SentenceTransformers!!
 
 The notebook performs these steps:
 
