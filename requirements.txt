@@ -1,0 +1,19 @@
+# Requirements for running the `rag_wikipedia.ipynb` notebook and reproducing the demo
+# Notes:
+# - Ollama is a separate system-level package; install via Homebrew (macOS) or official install instructions.
+# - This file pins versions that were validated in the notebook environment; adjust if you need newer releases.
+
+wikipedia-api>=0.5.4
+sentence-transformers>=2.2.2
+chromadb>=0.3.28
+langchain==0.0.287
+transformers>=4.30.0
+torch>=2.2.0
+pandas>=2.1.0
+numpy>=1.26.0
+markdown>=3.5
+crewai>=0.0.7
+
+# Optional helpers (not required but often useful):
+# faiss-cpu>=1.7.4  # optional vector indexes, used by some local vectorstores
+# tqdm>=4.65.0     # progress bars

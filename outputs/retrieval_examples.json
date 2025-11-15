@@ -1,0 +1,64 @@
+[
+  {
+    "query": "Explain federated learning challenges in healthcare.",
+    "answer": " Federated learning is a machine learning technique in a setting where multiple entities collaboratively train a model while keeping their data decentralized, rather than centrally stored . The main difference between federated learning and distributed learning lies in the assumptions made on the properties of the local datasets . Federated Learning provides a solution to improve over conventional machine learning training methods . In a paper published in Nature Medicine, they showcased the accuracy and generalizability of a federated AI model for predicting clinical outcomes in patients with COVID-19 infections . A coalition from industry and academia has developed MedPerf, an open source platform that enables validation of medical AI models in real world data . The authors highlight the challenges and considerations that need to be addressed for the future of digital health .",
+    "retrieved": [
+      {
+        "id": null,
+        "title": "Federated learning",
+        "text_snippet": "which the authors explore how federated learning may provide a solution for the future of digital health, and highlight the challenges and considerations that need to be addressed. Recently, a collaboration of 20 different institutions around the world validated the utility of training AI models usi"
+      },
+      {
+        "id": null,
+        "title": "Federated learning",
+        "text_snippet": "Federated learning (also known as collaborative learning) is a machine learning technique in a setting where multiple entities (often called clients) collaboratively train a model while keeping their data decentralized, rather than centrally stored. A defining characteristic of federated learning is"
+      },
+      {
+        "id": null,
+        "title": "Federated learning",
+        "text_snippet": "the constraints of the machine learning application (e.g., available computing power, available memory, bandwidth). For instance, stochastically choosing a limited fraction C {\\displaystyle C} of nodes for each iteration diminishes computing cost and may prevent overfitting, in the same way that sto"
+      },
+      {
+        "id": null,
+        "title": "Federated learning",
+        "text_snippet": "{x} _{1},\\dots ,\\mathbf {x} _{K}} converge to some common x {\\displaystyle \\mathbf {x} } at the end of the training process. Centralized federated learning In the centralized federated learning setting, a central server is used to orchestrate the different steps of the algorithms and coordinate all "
+      },
+      {
+        "id": null,
+        "title": "Federated learning",
+        "text_snippet": "local servers and minimum computational power for each node. Transportation: self-driving cars Self-driving cars encapsulate many machine learning technologies to function: computer vision for analyzing obstacles, machine learning for adapting their pace to the environment (e.g., bumpiness of the ro"
+      }
+    ]
+  },
+  {
+    "query": "How does differential privacy help with federated learning?",
+    "answer": " Differential privacy (DP) is a mathematically rigorous framework for releasing statistical information about datasets while protecting the privacy of individual data subjects . It enables a data holder to share aggregate patterns of the group while limiting information that is leaked about specific individuals . Differentially private algorithms are used by some government agencies to publish demographic information or other statistical aggregates while ensuring confidentiality of survey responses . Differential Privacy: A Primer for a Non-Technical Audience, by Alexandra Wood, Micah Altman, Aaron Bembenek, Mark Bun, Marco Gaboardi, et al, and Amritha Jayanti of MIT, MIT and the US Census of Social Ethical Responsibilities, by Winter . For more information, visit http://www.mfederatedprivacy.com/diversityprivacy/privacy .",
+    "retrieved": [
+      {
+        "id": null,
+        "title": "Differential privacy",
+        "text_snippet": "Differential privacy (DP) is a mathematically rigorous framework for releasing statistical information about datasets while protecting the privacy of individual data subjects. It enables a data holder to share aggregate patterns of the group while limiting information that is leaked about specific i"
+      },
+      {
+        "id": null,
+        "title": "Federated learning",
+        "text_snippet": "Federated learning (also known as collaborative learning) is a machine learning technique in a setting where multiple entities (often called clients) collaboratively train a model while keeping their data decentralized, rather than centrally stored. A defining characteristic of federated learning is"
+      },
+      {
+        "id": null,
+        "title": "Differential privacy",
+        "text_snippet": "2008 (Presents what was discovered during the first two years of research on differential privacy.) Differential Privacy: A Primer for a Non-Technical Audience, Alexandra Wood, Micah Altman, Aaron Bembenek, Mark Bun, Marco Gaboardi, et al, Vanderbilt Journal of Entertainment & Technology LawVanderbi"
+      },
+      {
+        "id": null,
+        "title": "Federated learning",
+        "text_snippet": "process. In 2017 and 2018, publications have emphasized the development of resource allocation strategies, especially to reduce communication requirements between nodes with gossip algorithms as well as on the characterization of the robustness to differential privacy attacks. Other research activit"
+      },
+      {
+        "id": null,
+        "title": "Differential privacy",
+        "text_snippet": "able to distinguish D 2 {\\displaystyle D_{2}} from D 1 {\\displaystyle D_{1}} by computing Q 5 \u2212 Q 4 {\\displaystyle Q_{5}-Q_{4}} for each dataset. If the adversary were required to receive the values Q i {\\displaystyle Q_{i}} via an \u03b5 {\\displaystyle \\varepsilon } -differentially private algorithm, fo"
+      }
+    ]
+  }
+]
